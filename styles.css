@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --made-by-font: 'Outfit', sans-serif;
+}
+
+body {
+    user-select: none;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    display: flex;
+    margin-top: 6em;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 12px 120px 12px rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+}
+
+.background img {
+    display: flex;
+    margin: 1.5em 1em 1em 1.5em;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.background .bar {
+    position: absolute;
+    display: flex;
+    margin: 24em 0 1em 2.2em;
+    align-self: center;
+    background-color: hsl(215, 32%, 27%);
+    width: 230px;
+    height: 1px;
+}
+
+.background .made-by {
+    position: absolute;
+    margin: 45.6em 0 0 8em;
+    letter-spacing: 0.2em;
+    color: hsl(215, 51%, 70%);
+    font-size: 10px;
+    font-family: var(--made-by-font);
+    font-weight: 600;
+}
+
+.background .avatar img {
+    position: absolute;
+    margin: 28.2em 0 0 2.9em;
+    max-width: 22px;
+    max-height: 22px;
+    border-radius: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+.background .header-text {
+    position: absolute;
+    margin: 18.5em 0 0 1.6em;
+    letter-spacing: 0.09em;
+    color: hsl(0, 0%, 100%);
+    font-family: var(--made-by-font);
+    font-weight: 600;
+}
+
+.background .eth-icon img {
+    position: absolute;
+    margin: 25.2em 0 0 2em;
+    max-width: 12px;
+    max-height: 16px;
+}
+
+.background .eth-icon .eth-cost {
+    position: absolute;
+    margin: 33.64em 0 0 4.4em;
+    color: hsl(178, 100%, 50%);
+    font-family: var(--made-by-font);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.background .time-icon img {
+    position: absolute;
+    margin: 25.2em 0 0 13em;
+    max-width: 16px;
+    max-height: 16px;
+}
+
+.background .time-icon .time-left {
+    position: absolute;
+    margin: 33.64em 0 0 19em;
+    color: hsl(215, 51%, 70%);
+    font-family: var(--made-by-font);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.background .body-text {
+    position: absolute;
+    max-width: 300px;
+    line-height: 20px;
+    margin: 20.5em 0 0 1.6em;
+    color: hsl(215, 51%, 70%);
+    font-family: var(--made-by-font);
+    font-size: 16px;
+    font-weight: 300;
+}
