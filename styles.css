@@ -25,11 +25,18 @@ body {
 }
 
 .background img {
-    display: flex;
     margin: 1.5em 1em 1em 1.5em;
     border-radius: 5px;
     width: 250px;
     height: 250px;
+    transition: transform .1s;
+}
+
+.background img:hover {
+    opacity: 0.4;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
 }
 
 .background .bar {
